@@ -110,3 +110,37 @@ nav ul li a:hover {
 .social-links a:hover {
     color: #464141;
 }
+
+/* mobile view */
+@media (max-width: 768px) {
+    nav {
+        padding-left: 40px;
+    }
+    .content {
+        margin-left: 4%;
+    }
+    .content h1 {
+        font-size: 35px;
+    }
+    .content p {
+        font-size: 19px;
+    }
+    .arrow-icons {
+        margin-top: 12px;
+    }
+    .arrow-icons img {
+        width: 30px;
+    }
+    .feature-img {
+        height: 46%;
+        right: 0;
+        bottom: 0;
+    }
+    .social-links {
+        left: 14%;
+        margin-top: 52%;
+    }
+    .logo {
+        width: 145px;
+    }
+}
