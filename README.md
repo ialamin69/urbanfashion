@@ -1,2 +1,3 @@
-# urbanfashion
-This is Fashion Shop site build with HTML &amp; CSS.
+Site Name: Urban Fashion
+
+Site Link: https://ialamin69.github.io/urbanfashion
