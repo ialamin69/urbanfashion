@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar {
+    height: 15vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+.cart {
+    width: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav {
+    flex: 1;
+    padding-left: 180px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.content {
+    margin-left: 15%;
+    margin-top: 8%;
+}
+.btn {
+    display: inline-block;
+    background: linear-gradient(45deg , #87adfe, #ff77cd);
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.content h1 {
+    font-size: 60px;
+    font-weight: 100;
+    margin: 10px 0px;
+    color: #333;
+}
+.content p {
+    font-size: 20px;
+    color: #333;
+}
+.arrow-icons {
+    display: flex;
+    margin-top: 40px;
+}
+.arrow-icons img {
+    width: 50px;
+    margin-right: 20px;
+}
+.feature-img {
+    height: 90%;
+    position: absolute;
+    right: 160px;
+    bottom: 0;
+}
+.social-links {
+    position: absolute;
+    left: 5%;
+    font-size: 55px;
+}
+.social-links a {
+    text-decoration: none;
+    color: #6a7199;
+    padding-right: 20px;
+    font-size: 20px;
+}
